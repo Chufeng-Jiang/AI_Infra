@@ -1,0 +1,254 @@
+
+# ============================================================
+# 1. C / C++ Compiled Files
+# ============================================================
+
+# Object files
+*.o
+*.obj
+*.lo
+
+# Shared libraries
+*.so
+*.so.*
+*.dll
+*.dylib
+
+# Static libraries
+*.a
+*.lib
+*.la
+
+# Executables
+*.exe
+*.out
+*.app
+*.bin
+
+# Debug symbols
+*.pdb
+*.ilk
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Dependency files
+*.d
+
+
+# ============================================================
+# 2. CMake / Make / Build Systems
+# ============================================================
+
+build/
+Build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+install_manifest.txt
+Testing/
+CTestTestfile.cmake
+CPackConfig.cmake
+CPackSourceConfig.cmake
+.ninja_deps
+.ninja_log
+build.ninja
+
+
+# ============================================================
+# 3. Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+wheels/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+
+# ============================================================
+# 4. PyTorch / CUDA / Triton
+# ============================================================
+
+# CUDA compilation
+*.cubin
+*.fatbin
+*.ptx
+*.cuf
+*.cudafe*
+*.nvcc*
+*.cubin.*
+
+# PyTorch extensions
+torch_extensions/
+.torch_extensions/
+
+# Triton cache
+.triton/
+triton_cache/
+
+# Kernel benchmarking outputs
+.nsys-rep
+*.nsys-rep
+*.qdrep
+*.ncu-rep
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# CUDA profiling files
+*.prof
+*.nvvp
+
+
+# ============================================================
+# 5. Machine Learning Models and Datasets
+# ============================================================
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# TensorFlow / other formats
+*.h5
+*.hdf5
+*.tflite
+
+# Local experiment output directories
+checkpoints/
+outputs/
+runs/
+wandb/
+lightning_logs/
+tensorboard/
+mlruns/
+
+# Generated datasets
+*.npy
+*.npz
+*.parquet
+*.arrow
+
+# Large archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+
+# ============================================================
+# 6. Jupyter Notebooks
+# ============================================================
+
+.ipynb_checkpoints/
+
+
+# ============================================================
+# 7. Logs / Temporary Files
+# ============================================================
+
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+*.pid
+*.pid.lock
+
+
+# ============================================================
+# 8. IDE / Editors
+# ============================================================
+
+.vscode/
+.idea/
+*.code-workspace
+*.iml
+
+# Vim
+*.swn
+Session.vim
+
+# Emacs
+\#*\#
+.#*
+
+
+# ============================================================
+# 9. OS / WSL / Windows / macOS
+# ============================================================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Trashes
+.Spotlight-V100
+
+
+# ============================================================
+# 10. Environment Variables / Secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+
+# ============================================================
+# 11. Generated Documentation / Reports
+# ============================================================
+
+site/
+docs/_build/
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.bbl
+*.blg
